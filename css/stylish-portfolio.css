@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Proxima Nova';
+  font-family: 'Proxima Nova', 'Sans-Serif';
 }
 
 .btn-xl {
@@ -369,23 +369,4 @@ a:hover, a:focus, a:active {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  float:center;
-  flex: 50%;
-  padding: 0 0px;
-}
-
-.column img {
-  margin-top: 12px;
-  vertical-align: middle;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
